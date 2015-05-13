@@ -1,0 +1,79 @@
+
+Website Structure & Layout
+----------------------------
+
+Block - Standalone entity that is meaningful on its own
+ex: header, container, menu, checkbox, input, button
+
+Elements - Parts of a block and have no standalone meaning. They are semantically tied to its block.
+ex: menu item, list item, checkbox caption, header title
+
+Modifiers - Flags on blocks or elements. Use them to change appearance or behavior.
+ex: disabled, highlighted, checked, fixed, size big, color yellow
+
+
+New Challenges
+======================
+
+• Zig-zag layout with grid system
+• Uneven shapes with grid system
+
+
+Structure & Behavior
+======================
+
+Block
+	Element 
+		Element--Modifier
+
+*Block-Elements
+#Behavior
+
+header
+modules
+	greeting
+	artist	
+		1#Click to change info 2#click to see more artists
+	testimonial
+	gallery
+		1#hover 2#See bigger picture
+	blog
+		1#hover with more info 
+	contact
+footer
+
+
+Breakdown
+======================
+
+module
+	content
+	content__heading
+	content__subheading
+	content__description
+	content__social-links
+
+	sub-content
+	sub-content__heading
+	sub-content__subheading
+	sub-content__description
+	sub-content__image__main
+	
+header	
+	header__phone-number
+	header__logo
+	button__fb
+	header__nav
+	header__slider
+
+footer
+	footer__logo
+	footer__content
+	button__fb
+
+gallery
+
+button
+	button__fb
+nav
+
