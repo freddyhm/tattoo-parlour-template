@@ -1,0 +1,59 @@
+
+/* -----------------------------------------------
+  :: LAYOUT
+  --------------------------------------------- */
+
+/* ------------
+  :: GENERAL
+  ---------- */
+
+ul{
+	list-style-type: none;
+}
+
+body{
+	color: #fff;
+	background-color: #000;
+}
+
+/* ------------
+ :: HEADER
+ ---------- */
+
+/* ------------
+  :: Mobile
+  ---------- */
+
+.header__top{
+	display: flex;
+}
+
+.header__top--left{
+	order: 1;
+}
+
+.header__top--center{
+	order: 2;
+}
+
+.header__top--right{
+	order: 3;
+}
+
+/* ------------
+ :: Desktop
+ ---------- */
+
+@media screen and (min-width:650px){
+ 	
+ 	.header__top--left{
+		order: 2;
+	}
+
+	.header__top--center{
+		order: 1;
+	}
+}
+
+
+

@@ -1,0 +1,29 @@
+/* -----------------------------------------------
+  :: HEADER
+  --------------------------------------------- */
+
+ /* ------------
+  :: Mobile
+  ---------- */
+
+.logo{
+  	width: 100px;
+  	line-height: 0.7;
+  	font-size: 2em;
+  	color: #fff;
+  	font-family: 'Great Vibes', cursive;
+  	margin: 0 auto;
+}
+
+.fb-logo{
+	float: right;
+}
+
+.tel{
+	width: 150px;
+	color: #fff;
+}
+
+@media screen and (min-width:650px){
+
+}
