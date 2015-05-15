@@ -23,7 +23,7 @@ module.exports = function(grunt){
 		concat: {
 			css: {
 		    	src: ['src/css/base/normalize.css', 'src/css/base/main.css','src/css/base/layout.css', 'src/css/base/grid.css', 
-		    		  'src/css/header/*.css', 'src/css/module/module.css', 'src/css/module/**/*.css', 'src/css/footer/*.css'],
+		    		  'src/css/header/*.css', 'src/css/sub-content/s-content.css', 'src/css/module/module.css', 'src/css/module/**/*.css', 'src/css/footer/*.css'],
 		    	dest: 'dist/css/concat.css'
 		  	},
 		  	js: {

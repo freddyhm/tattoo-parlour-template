@@ -15,6 +15,10 @@ ul{
 	list-style-type: none;
 }
 
+li{
+	display: inline-block;
+}
+
 body{
 	color: #fff;
 	background-color: #000;
@@ -55,6 +59,29 @@ body{
 	}
 
 	.header__top--center{
+		order: 1;
+	}
+}
+
+/* ------------
+ :: ARTIST
+ ---------- */
+
+/* ------------
+ :: Desktop
+ ---------- */
+
+ @media screen and (min-width:650px){
+
+ 	.s-content__artist{
+		display: flex;
+	}	
+ 	
+ 	.artist__image{
+		order: 2;
+	}
+
+	.artist__info{
 		order: 1;
 	}
 }

@@ -2,3 +2,13 @@
 :: GREETING
 --------------------------------------------- */
 
+.artist__info__description{
+	display: none;
+}
+
+ @media screen and (min-width: 650px){
+
+ 	.artist__info__description{
+ 		display: block;
+ 	}
+}
