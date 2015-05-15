@@ -1,0 +1,21 @@
+/* -----------------------------------------------
+  :: GREETING
+  --------------------------------------------- */
+
+.s-content__heading{
+	text-align: left ;
+}
+
+.s-content__heading__title{
+	margin-bottom: 0;
+}
+
+.s-content__heading__subtitle{
+	margin-top: 0;
+}
+
+.description__msg{
+	text-align: justify;
+}
+
+

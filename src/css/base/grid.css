@@ -11,7 +11,7 @@
 	clear: both;
 }
 
-[class*='col-']{
+[class*='col-'], [class*='m-col-']{
 	float: left;
 	min-height: 1px;
 	width: 8.33%;
@@ -23,14 +23,16 @@
 .col-2 { width: 50%; }
 .col-3 { width: 50%; }
 .col-4 { width: 33.33%; }
-.col-5 { width: 50%; }
-.col-6 { width: 50%; }
-.col-7 { width: 50%; }
-.col-8 { width: 50%; }
-.col-9 { width: 50%; }
-.col-10 { width: 50%; }
-.col-11 { width: 50%; }
+.col-5 { width: 100%; }
+.col-6 { width: 100%; }
+.col-7 { width: 100%; }
+.col-8 { width: 100%; }
+.col-9 { width: 100%; }
+.col-10 { width: 100%; }
+.col-11 { width: 100%; }
 .col-12 { width: 100%; }
+
+.m-col-4 { width: 100%;}
 
 .outline, .outline *{
 	outline: 1px solid #F6A1A1;
