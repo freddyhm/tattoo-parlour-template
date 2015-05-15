@@ -2,6 +2,10 @@
   :: GREETING
   --------------------------------------------- */
 
+.module__greeting{
+	height: 1080px;
+}
+
 .description__msg{
 	text-align: justify;
 }

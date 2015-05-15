@@ -13,30 +13,15 @@
 	color: white;
 }
 
-.module__content--dark{
-	color: #fff;
-}
-
-
 .module__title{
 	margin: 0;
 	padding: 1.2em 0 0.4em 0;
 	font-family: 'Yeseva One', cursive;
 }
 
-.module__title--highlighted{
-	color: #cc9900;
-}
-
 .module__description{
 	margin: 1.4em auto 0 auto;
 }
 
-.module__overlay{
-	position: absolute;
-	width: 100%;
-	height: inherit;
-	background-color: rgba(0,0,0,0.5);
-}
 
 

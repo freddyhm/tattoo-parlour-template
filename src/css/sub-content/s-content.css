@@ -2,16 +2,16 @@
 :: SUB-CONTENT
 --------------------------------------------- */
 
-.s-content__heading{
+.content__heading, .s-content__heading{
 	text-transform: uppercase;
 	text-align: left;
 }
 
-.s-content__heading__title{
+.content__heading__title, .s-content__heading__title{
 	margin-bottom: 0;
 }
 
-.s-content__heading__subtitle{
+.content__heading__subtitle, .s-content__heading__subtitle{
 	margin-top: 0;
 	font-weight: 100;
 }

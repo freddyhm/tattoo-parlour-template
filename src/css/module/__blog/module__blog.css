@@ -1,0 +1,13 @@
+/* -----------------------------------------------
+:: BLOG
+--------------------------------------------- */
+
+.blog__heading{
+	text-align: center;
+}
+
+.blog__s-content__image{
+	width: 250px;
+	height: 165px;
+	background-color: red;
+}

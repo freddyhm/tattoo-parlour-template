@@ -1,0 +1,13 @@
+/* -----------------------------------------------
+:: GALLERY
+--------------------------------------------- */
+
+.module__gallery{
+	height: 2040px;
+}
+
+.tattoo__item{
+	height: 180px;
+	margin: 30px 20px 30px 0;
+	border: 1px solid blue;
+}

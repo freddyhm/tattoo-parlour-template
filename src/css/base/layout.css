@@ -24,6 +24,28 @@ body{
 	background-color: #000;
 }
 
+
+
+@media screen and (min-width:650px){
+
+ 	.header__top--left{
+		order: 2;
+	}
+
+	.header__top--center{
+		order: 1;
+	}
+}
+
+@media screen and (min-width:800px){
+	
+	.wrapper{
+		width: 780px;
+		margin: 0 auto;
+	}
+}
+
+
 /* ------------
  :: HEADER
  ---------- */
