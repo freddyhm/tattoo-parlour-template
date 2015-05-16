@@ -1,7 +1,7 @@
 
 /* -----------------------------------------------
-  :: LAYOUT
-  --------------------------------------------- */
+:: LAYOUT
+--------------------------------------------- */
 
 /* ------------
   :: GENERAL
@@ -118,17 +118,23 @@ body{
  :: Desktop
  ---------- */
 
+.content__image__main{
+
+
+}
+
+
 @media screen and (min-width:650px){
 
- 	.contact__info{
+ 	.contact__content{
 		display: flex;
 	}	
  	
- 	.contact__info__image{
+ 	.content__image__main{
 		order: 2;
 	}
 
-	.contact__info__description{
+	.content__info{
 		order: 1;
 	}
 }
