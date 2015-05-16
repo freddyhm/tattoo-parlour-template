@@ -2,6 +2,10 @@
 :: BLOG
 --------------------------------------------- */
 
+.module__blog{
+	height: 1600px;
+}
+
 .blog__heading{
 	text-align: center;
 }

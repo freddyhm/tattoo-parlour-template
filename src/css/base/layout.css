@@ -83,6 +83,8 @@ body{
 	.header__top--center{
 		order: 1;
 	}
+
+
 }
 
 /* ------------
@@ -93,7 +95,7 @@ body{
  :: Desktop
  ---------- */
 
- @media screen and (min-width:650px){
+@media screen and (min-width:650px){
 
  	.s-content__artist{
 		display: flex;
@@ -107,6 +109,30 @@ body{
 		order: 1;
 	}
 }
+
+/* ------------
+ :: CONTACT
+ ---------- */
+
+/* ------------
+ :: Desktop
+ ---------- */
+
+@media screen and (min-width:650px){
+
+ 	.contact__info{
+		display: flex;
+	}	
+ 	
+ 	.contact__info__image{
+		order: 2;
+	}
+
+	.contact__info__description{
+		order: 1;
+	}
+}
+
 
 
 
