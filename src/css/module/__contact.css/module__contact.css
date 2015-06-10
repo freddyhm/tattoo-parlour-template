@@ -3,9 +3,17 @@
 --------------------------------------------- */
 
 .module__contact{
-	height: 800px;
+	height: 1000px;
 }
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 273px){
+	.module__contact{
+		height: 700px;
+	}
+}
 
+@media screen and (min-width: 376px){
+	.module__contact{
+		height: 600px;
+	}
 }

@@ -3,11 +3,29 @@
   --------------------------------------------- */
 
 .module__greeting{
-	height: 1080px;
+	height: 1850px;
 }
 
 .description__msg{
 	text-align: justify;
+}
+
+@media screen and (min-width: 250px){
+	.module__greeting{
+		height: 1550px;
+	}
+}
+
+@media screen and (min-width: 300px){
+	.module__greeting{
+		height: 1250px;
+	}
+}
+
+@media screen and (min-width: 343px){
+	.module__greeting{
+		height: 1080px;
+	}
 }
 
 

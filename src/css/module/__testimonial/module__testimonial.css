@@ -2,6 +2,11 @@
 :: TESTIMONIAL
 --------------------------------------------- */
 
+.module__testimonial{
+	height: 550px;
+}
+
+
 .testimonial__heading{
 	text-align: center;
 }
