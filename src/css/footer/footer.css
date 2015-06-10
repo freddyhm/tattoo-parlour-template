@@ -2,11 +2,11 @@
 :: LAYOUT
 --------------------------------------------- */
 
+.footer__fb-logo{
+	float: none;
+	text-align: center;
+}
 
 /* ------------
  :: Desktop
  ---------- */
-
-@media screen and (min-width:650px){
-
-}
