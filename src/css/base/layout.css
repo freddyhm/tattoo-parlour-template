@@ -29,10 +29,18 @@ body{
 @media screen and (min-width:650px){
 
  	.header__top--left{
+		-webkit-box-ordinal-group: 2;  
+		-moz-box-ordinal-group: 2;     
+		-ms-flex-order: 2;     
+		-webkit-order: 2;  
 		order: 2;
 	}
 
 	.header__top--center{
+		-webkit-box-ordinal-group: 1;  
+		-moz-box-ordinal-group: 1;     
+		-ms-flex-order: 1;     
+		-webkit-order: 1;  
 		order: 1;
 	}
 }
@@ -55,18 +63,34 @@ body{
   ---------- */
 
 .header__top{
-	display: flex;
+	display: -webkit-box;
+  	display: -moz-box;
+ 	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
 }
 
 .header__top--left{
+	-webkit-box-ordinal-group: 1;  
+	-moz-box-ordinal-group: 1;     
+	-ms-flex-order: 1;     
+	-webkit-order: 1;  
 	order: 1;
 }
 
 .header__top--center{
+	-webkit-box-ordinal-group: 2;  
+	-moz-box-ordinal-group: 2;     
+	-ms-flex-order: 2;     
+	-webkit-order: 2;  
 	order: 2;
 }
 
 .header__top--right{
+	-webkit-box-ordinal-group: 3;  
+	-moz-box-ordinal-group: 3;     
+	-ms-flex-order: 3;     
+	-webkit-order: 3;  
 	order: 3;
 }
 
@@ -77,14 +101,20 @@ body{
 @media screen and (min-width:650px){
  	
  	.header__top--left{
+		-webkit-box-ordinal-group: 2;  
+		-moz-box-ordinal-group: 2;     
+		-ms-flex-order: 2;     
+		-webkit-order: 2;  
 		order: 2;
 	}
 
 	.header__top--center{
+		-webkit-box-ordinal-group: 1;  
+		-moz-box-ordinal-group: 1;     
+		-ms-flex-order: 1;     
+		-webkit-order: 1;  
 		order: 1;
 	}
-
-
 }
 
 /* ------------
@@ -98,14 +128,26 @@ body{
 @media screen and (min-width:650px){
 
  	.s-content__artist{
-		display: flex;
+		display: -webkit-box;
+	  	display: -moz-box;
+	 	display: -ms-flexbox;
+	  	display: -webkit-flex;
+	  	display: flex;
 	}	
  	
  	.artist__image{
+		-webkit-box-ordinal-group: 2;  
+		-moz-box-ordinal-group: 2;     
+		-ms-flex-order: 2;     
+		-webkit-order: 2;  
 		order: 2;
 	}
 
 	.artist__info{
+		-webkit-box-ordinal-group: 1;  
+		-moz-box-ordinal-group: 1;     
+		-ms-flex-order: 1;     
+		-webkit-order: 1;  
 		order: 1;
 	}
 }
@@ -127,14 +169,26 @@ body{
 @media screen and (min-width:650px){
 
  	.contact__content{
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 	}	
  	
  	.content__image__main{
+		-webkit-box-ordinal-group: 2;  
+		-moz-box-ordinal-group: 2;     
+		-ms-flex-order: 2;     
+		-webkit-order: 2;  
 		order: 2;
 	}
 
 	.content__info{
+		-webkit-box-ordinal-group: 1;  
+		-moz-box-ordinal-group: 1;     
+		-ms-flex-order: 1;     
+		-webkit-order: 1;  
 		order: 1;
 	}
 }
